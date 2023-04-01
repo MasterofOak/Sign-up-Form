@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Sign-Up Form</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="abstract">
+            <div class="logo-background"><span><img id="logo" src="oak.png" alt="logo"></span>MASTEROFOAK</div>
+            <footer id="left">Photo by <u>Rick Rothenberg</u> on <u>Unsplash</u></footer>
+            <img id="image" src="rick-rothenberg.jpg" alt="abstract-image">
+        </div>
+        <div class="container">
+            <header>
+                <p>
+                    This is not real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                    <br>
+                    Sign up <em>now</em> to get started.
+                    <br><br>
+                    You <em>know</em> you want to.
+                </p>
+            </header>
+            <section>
+                <p><b>Let's do this!</b></p>
+                <form action="#" method="post" class="form">
+                    <div class="row">
+                        <label for="first_name">First Name</label><br>
+                        <input type="text" name="first_name" id="first_name"><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email"><br>
+                        <label for="password">Password</label><br>
+                        <input type="password" name="password" id="password" title="*Password do not match" minlength="8">
+                    </div>   
+                    <div class="row">
+                        <label for="last_name">Last Name</label><br>
+                        <input type="text" name="last_name" id="last_name"><br>
+                        <label for="phone_number">Phone Number</label><br>
+                        <input type="text" name="phone_number" id="phone_number"><br>
+                        <label for="password_confirm">Confirm Password</label><br>
+                        <input type="password" name="password_confirm" id="password_confirm" minlength="8">
+                </form>
+            </section>
+            <footer id="right">
+                <input type="submit" value="Create Account">
+                <br>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
